@@ -7,28 +7,37 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Footman.h"
 
-@interface WarCarftIII_Tests : XCTestCase
+// Units that can fight, such as the Footman, have both health points to indicate their health and attack power to indicate how much damage they deal to other units
+// As such, they must start off with a certain amount of each
+
+
+@interface WarCarftIII_Tests_01 : XCTestCase
 
 @end
 
-@implementation WarCarftIII_Tests
+@implementation WarCarftIII_Tests_01
 
-- (void)setUp
+
+-(Footman *)footman
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    return [Footman new];
 }
 
-- (void)tearDown
+- (void)testHasAndKnowItsHealthPoints
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+    int result = self.footman.healthPoints;
+    int expected = 60;
+    XCTAssertEqual(expected,result);
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
 
+
+- (void)testHasAndKnowItsAttackPower
+{
+    int result = self.footman.attackPower;
+    int expected = 10;
+    XCTAssertEqual(expected,result);
+}
 @end

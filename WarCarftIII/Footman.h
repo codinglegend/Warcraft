@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Footman : NSObject
-
+@property int healthPoints;
+@property int attackPower;
 @end

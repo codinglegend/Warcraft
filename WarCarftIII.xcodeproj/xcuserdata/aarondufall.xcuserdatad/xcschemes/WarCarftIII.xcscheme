@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5D2CABF19182ABC00A45A14"
+               BuildableName = "WarCarftIII Tests.xctest"
+               BlueprintName = "WarCarftIII Tests"
+               ReferencedContainer = "container:WarCarftIII.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

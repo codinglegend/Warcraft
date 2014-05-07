@@ -10,7 +10,36 @@
 		F5D2CAAF1918284500A45A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2CAAE1918284500A45A14 /* Foundation.framework */; };
 		F5D2CAB21918284500A45A14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAB11918284500A45A14 /* main.m */; };
 		F5D2CAB61918284500A45A14 /* WarCarftIII.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5D2CAB51918284500A45A14 /* WarCarftIII.1 */; };
+		F5D2CAC219182ABC00A45A14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2CAC119182ABC00A45A14 /* XCTest.framework */; };
+		F5D2CAC819182ABC00A45A14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D2CAC619182ABC00A45A14 /* InfoPlist.strings */; };
+		F5D2CACA19182ABC00A45A14 /* WarCarftIII_Tests_01.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAC919182ABC00A45A14 /* WarCarftIII_Tests_01.m */; };
+		F5D2CAD319182C1000A45A14 /* Footman.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAD219182C1000A45A14 /* Footman.m */; };
+		F5D2CAD51918315300A45A14 /* Footman.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAD219182C1000A45A14 /* Footman.m */; };
+		F5D2CAD7191833C800A45A14 /* WarCraftIII_Tests_02.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAD6191833C800A45A14 /* WarCraftIII_Tests_02.m */; };
+		F5D2CADA191834BA00A45A14 /* Barracks.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAD9191834BA00A45A14 /* Barracks.m */; };
+		F5D2CADB1918361500A45A14 /* Barracks.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAD9191834BA00A45A14 /* Barracks.m */; };
+		F5D2CADD191836DE00A45A14 /* WarCraftIII_Tests_03.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CADC191836DE00A45A14 /* WarCraftIII_Tests_03.m */; };
+		F5D2CADF1918537200A45A14 /* WarCraftIII_Tests_04.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CADE1918537200A45A14 /* WarCraftIII_Tests_04.m */; };
+		F5D2CAE119187CB400A45A14 /* WarCraftIII_Tests_05.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAE019187CB400A45A14 /* WarCraftIII_Tests_05.m */; };
+		F5D2CAE419187D6A00A45A14 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAE319187D6A00A45A14 /* Unit.m */; };
+		F5D2CAE61918832100A45A14 /* WarCraftIII_Tests_06.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAE51918832100A45A14 /* WarCraftIII_Tests_06.m */; };
+		F5D2CAE81919A1D400A45A14 /* WarCarftIII_Tests_07.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAE71919A1D400A45A14 /* WarCarftIII_Tests_07.m */; };
+		F5D2CAEA1919A6A700A45A14 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2CAE91919A6A700A45A14 /* libOCMock.a */; };
+		F5D2CAF31919B95B00A45A14 /* WarCarftIII_Tests_08.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAF21919B95B00A45A14 /* WarCarftIII_Tests_08.m */; };
+		F5D2CAF61919B9E500A45A14 /* Peasent.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAF51919B9E500A45A14 /* Peasent.m */; };
+		F5D2CAF8191AD06E00A45A14 /* WarCraftIII_Tests_09.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAF7191AD06E00A45A14 /* WarCraftIII_Tests_09.m */; };
+		F5D2CAFA191AE95900A45A14 /* WarCarftIII_Tests_10.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2CAF9191AE95900A45A14 /* WarCarftIII_Tests_10.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D2CACC19182ABC00A45A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D2CAA31918284500A45A14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D2CAAA1918284500A45A14;
+			remoteInfo = WarCarftIII;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F5D2CAA91918284500A45A14 /* CopyFiles */ = {
@@ -31,6 +60,36 @@
 		F5D2CAB11918284500A45A14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5D2CAB41918284500A45A14 /* WarCarftIII-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WarCarftIII-Prefix.pch"; sourceTree = "<group>"; };
 		F5D2CAB51918284500A45A14 /* WarCarftIII.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WarCarftIII.1; sourceTree = "<group>"; };
+		F5D2CAC019182ABC00A45A14 /* WarCarftIII Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WarCarftIII Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D2CAC119182ABC00A45A14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5D2CAC519182ABC00A45A14 /* WarCarftIII Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WarCarftIII Tests-Info.plist"; sourceTree = "<group>"; };
+		F5D2CAC719182ABC00A45A14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5D2CAC919182ABC00A45A14 /* WarCarftIII_Tests_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_01.m; sourceTree = "<group>"; };
+		F5D2CACB19182ABC00A45A14 /* WarCarftIII Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WarCarftIII Tests-Prefix.pch"; sourceTree = "<group>"; };
+		F5D2CAD119182C1000A45A14 /* Footman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Footman.h; sourceTree = "<group>"; };
+		F5D2CAD219182C1000A45A14 /* Footman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Footman.m; sourceTree = "<group>"; };
+		F5D2CAD6191833C800A45A14 /* WarCraftIII_Tests_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_02.m; sourceTree = "<group>"; };
+		F5D2CAD8191834BA00A45A14 /* Barracks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barracks.h; sourceTree = "<group>"; };
+		F5D2CAD9191834BA00A45A14 /* Barracks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barracks.m; sourceTree = "<group>"; };
+		F5D2CADC191836DE00A45A14 /* WarCraftIII_Tests_03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_03.m; sourceTree = "<group>"; };
+		F5D2CADE1918537200A45A14 /* WarCraftIII_Tests_04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_04.m; sourceTree = "<group>"; };
+		F5D2CAE019187CB400A45A14 /* WarCraftIII_Tests_05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_05.m; sourceTree = "<group>"; };
+		F5D2CAE219187D6A00A45A14 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		F5D2CAE319187D6A00A45A14 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		F5D2CAE51918832100A45A14 /* WarCraftIII_Tests_06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_06.m; sourceTree = "<group>"; };
+		F5D2CAE71919A1D400A45A14 /* WarCarftIII_Tests_07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_07.m; sourceTree = "<group>"; };
+		F5D2CAE91919A6A700A45A14 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = usr/lib/libOCMock.a; sourceTree = "<group>"; };
+		F5D2CAEC1919ACEB00A45A14 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		F5D2CAED1919ACEB00A45A14 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		F5D2CAEE1919ACEB00A45A14 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		F5D2CAEF1919ACEB00A45A14 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		F5D2CAF01919ACEB00A45A14 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		F5D2CAF11919ACEB00A45A14 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		F5D2CAF21919B95B00A45A14 /* WarCarftIII_Tests_08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_08.m; sourceTree = "<group>"; };
+		F5D2CAF41919B9E500A45A14 /* Peasent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peasent.h; sourceTree = "<group>"; };
+		F5D2CAF51919B9E500A45A14 /* Peasent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peasent.m; sourceTree = "<group>"; };
+		F5D2CAF7191AD06E00A45A14 /* WarCraftIII_Tests_09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_09.m; sourceTree = "<group>"; };
+		F5D2CAF9191AE95900A45A14 /* WarCarftIII_Tests_10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_10.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +101,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5D2CABD19182ABC00A45A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D2CAEA1919A6A700A45A14 /* libOCMock.a in Frameworks */,
+				F5D2CAC219182ABC00A45A14 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				F5D2CAB01918284500A45A14 /* WarCarftIII */,
+				F5D2CAC319182ABC00A45A14 /* WarCarftIII Tests */,
 				F5D2CAAD1918284500A45A14 /* Frameworks */,
 				F5D2CAAC1918284500A45A14 /* Products */,
 			);
@@ -58,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F5D2CAAB1918284500A45A14 /* WarCarftIII */,
+				F5D2CAC019182ABC00A45A14 /* WarCarftIII Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +135,10 @@
 		F5D2CAAD1918284500A45A14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5D2CAE91919A6A700A45A14 /* libOCMock.a */,
+				F5D2CAEB1919ACEB00A45A14 /* OCMock */,
 				F5D2CAAE1918284500A45A14 /* Foundation.framework */,
+				F5D2CAC119182ABC00A45A14 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +149,14 @@
 				F5D2CAB11918284500A45A14 /* main.m */,
 				F5D2CAB51918284500A45A14 /* WarCarftIII.1 */,
 				F5D2CAB31918284500A45A14 /* Supporting Files */,
+				F5D2CAD119182C1000A45A14 /* Footman.h */,
+				F5D2CAD219182C1000A45A14 /* Footman.m */,
+				F5D2CAD8191834BA00A45A14 /* Barracks.h */,
+				F5D2CAD9191834BA00A45A14 /* Barracks.m */,
+				F5D2CAE219187D6A00A45A14 /* Unit.h */,
+				F5D2CAE319187D6A00A45A14 /* Unit.m */,
+				F5D2CAF41919B9E500A45A14 /* Peasent.h */,
+				F5D2CAF51919B9E500A45A14 /* Peasent.m */,
 			);
 			path = WarCarftIII;
 			sourceTree = "<group>";
@@ -86,6 +167,48 @@
 				F5D2CAB41918284500A45A14 /* WarCarftIII-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D2CAC319182ABC00A45A14 /* WarCarftIII Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2CAC919182ABC00A45A14 /* WarCarftIII_Tests_01.m */,
+				F5D2CAD6191833C800A45A14 /* WarCraftIII_Tests_02.m */,
+				F5D2CADC191836DE00A45A14 /* WarCraftIII_Tests_03.m */,
+				F5D2CADE1918537200A45A14 /* WarCraftIII_Tests_04.m */,
+				F5D2CAE019187CB400A45A14 /* WarCraftIII_Tests_05.m */,
+				F5D2CAE51918832100A45A14 /* WarCraftIII_Tests_06.m */,
+				F5D2CAE71919A1D400A45A14 /* WarCarftIII_Tests_07.m */,
+				F5D2CAF21919B95B00A45A14 /* WarCarftIII_Tests_08.m */,
+				F5D2CAF7191AD06E00A45A14 /* WarCraftIII_Tests_09.m */,
+				F5D2CAF9191AE95900A45A14 /* WarCarftIII_Tests_10.m */,
+				F5D2CAC419182ABC00A45A14 /* Supporting Files */,
+			);
+			path = "WarCarftIII Tests";
+			sourceTree = "<group>";
+		};
+		F5D2CAC419182ABC00A45A14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2CAC519182ABC00A45A14 /* WarCarftIII Tests-Info.plist */,
+				F5D2CAC619182ABC00A45A14 /* InfoPlist.strings */,
+				F5D2CACB19182ABC00A45A14 /* WarCarftIII Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D2CAEB1919ACEB00A45A14 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2CAEC1919ACEB00A45A14 /* NSNotificationCenter+OCMAdditions.h */,
+				F5D2CAED1919ACEB00A45A14 /* OCMArg.h */,
+				F5D2CAEE1919ACEB00A45A14 /* OCMConstraint.h */,
+				F5D2CAEF1919ACEB00A45A14 /* OCMock.h */,
+				F5D2CAF01919ACEB00A45A14 /* OCMockObject.h */,
+				F5D2CAF11919ACEB00A45A14 /* OCMockRecorder.h */,
+			);
+			name = OCMock;
+			path = usr/OCMock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +231,24 @@
 			productReference = F5D2CAAB1918284500A45A14 /* WarCarftIII */;
 			productType = "com.apple.product-type.tool";
 		};
+		F5D2CABF19182ABC00A45A14 /* WarCarftIII Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D2CACE19182ABC00A45A14 /* Build configuration list for PBXNativeTarget "WarCarftIII Tests" */;
+			buildPhases = (
+				F5D2CABC19182ABC00A45A14 /* Sources */,
+				F5D2CABD19182ABC00A45A14 /* Frameworks */,
+				F5D2CABE19182ABC00A45A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D2CACD19182ABC00A45A14 /* PBXTargetDependency */,
+			);
+			name = "WarCarftIII Tests";
+			productName = "WarCarftIII Tests";
+			productReference = F5D2CAC019182ABC00A45A14 /* WarCarftIII Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +257,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Lighthouse Labs";
+				TargetAttributes = {
+					F5D2CABF19182ABC00A45A14 = {
+						TestTargetID = F5D2CAAA1918284500A45A14;
+					};
+				};
 			};
 			buildConfigurationList = F5D2CAA61918284500A45A14 /* Build configuration list for PBXProject "WarCarftIII" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -130,20 +276,74 @@
 			projectRoot = "";
 			targets = (
 				F5D2CAAA1918284500A45A14 /* WarCarftIII */,
+				F5D2CABF19182ABC00A45A14 /* WarCarftIII Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D2CABE19182ABC00A45A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D2CAC819182ABC00A45A14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5D2CAA71918284500A45A14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D2CAD319182C1000A45A14 /* Footman.m in Sources */,
+				F5D2CAE419187D6A00A45A14 /* Unit.m in Sources */,
+				F5D2CAF61919B9E500A45A14 /* Peasent.m in Sources */,
 				F5D2CAB21918284500A45A14 /* main.m in Sources */,
+				F5D2CADA191834BA00A45A14 /* Barracks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D2CABC19182ABC00A45A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D2CAE81919A1D400A45A14 /* WarCarftIII_Tests_07.m in Sources */,
+				F5D2CADB1918361500A45A14 /* Barracks.m in Sources */,
+				F5D2CAE119187CB400A45A14 /* WarCraftIII_Tests_05.m in Sources */,
+				F5D2CADF1918537200A45A14 /* WarCraftIII_Tests_04.m in Sources */,
+				F5D2CAD51918315300A45A14 /* Footman.m in Sources */,
+				F5D2CACA19182ABC00A45A14 /* WarCarftIII_Tests_01.m in Sources */,
+				F5D2CAD7191833C800A45A14 /* WarCraftIII_Tests_02.m in Sources */,
+				F5D2CADD191836DE00A45A14 /* WarCraftIII_Tests_03.m in Sources */,
+				F5D2CAFA191AE95900A45A14 /* WarCarftIII_Tests_10.m in Sources */,
+				F5D2CAE61918832100A45A14 /* WarCraftIII_Tests_06.m in Sources */,
+				F5D2CAF8191AD06E00A45A14 /* WarCraftIII_Tests_09.m in Sources */,
+				F5D2CAF31919B95B00A45A14 /* WarCarftIII_Tests_08.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D2CACD19182ABC00A45A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D2CAAA1918284500A45A14 /* WarCarftIII */;
+			targetProxy = F5D2CACC19182ABC00A45A14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D2CAC619182ABC00A45A14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D2CAC719182ABC00A45A14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F5D2CAB71918284500A45A14 /* Debug */ = {
@@ -234,6 +434,74 @@
 			};
 			name = Release;
 		};
+		F5D2CACF19182ABC00A45A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarCarftIII Tests/WarCarftIII Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/usr/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "WarCarftIII Tests/WarCarftIII Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/usr/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5D2CAD019182ABC00A45A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarCarftIII Tests/WarCarftIII Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/usr/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "WarCarftIII Tests/WarCarftIII Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/usr/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -253,6 +521,16 @@
 				F5D2CABB1918284500A45A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D2CACE19182ABC00A45A14 /* Build configuration list for PBXNativeTarget "WarCarftIII Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D2CACF19182ABC00A45A14 /* Debug */,
+				F5D2CAD019182ABC00A45A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

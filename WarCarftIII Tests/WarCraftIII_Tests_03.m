@@ -6,7 +6,13 @@
 //  Copyright (c) 2014 Lighthouse Labs. All rights reserved.
 //
 
+
 #import <XCTest/XCTest.h>
+#import "Footman.h"
+#import "Barracks.h"
+
+// Now that our Barracks and Footman classes are initializable, lets allow the player to train a footman from their barracks
+// This of course costs the player some resources
 
 @interface WarCraftIII_Tests_03 : XCTestCase
 
@@ -14,21 +20,34 @@
 
 @implementation WarCraftIII_Tests_03
 
-- (void)setUp
+
+-(Barracks *)barracks
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    return [Barracks new];
 }
 
-- (void)tearDown
+-(void)testTrainFootmanCosts135Gold
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+    [self.barracks trainFootman];
+    int result = self.barracks.gold;
+    int expected = 865; // Starts with 1000
+    XCTAssertEqual(expected,result);
 }
 
-- (void)testExample
+-(void)testTrainFootmanCosts2Food
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    [self.barracks trainFootman];
+    int result = self.barracks.food;
+    int expected = 78; // Starts with 80
+    XCTAssertEqual(expected,result);
+}
+
+-(void)testTrainFootmanProducesAFootmanUnit
+{
+    Footman *footman = [self.barracks trainFootman];
+    BOOL result = [footman isKindOfClass:[Footman class]];
+    BOOL expected = YES;
+    XCTAssertEqual(expected,result);
 }
 
 @end

@@ -7,28 +7,46 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Unit.h"
+#import "OCMock.h"
 
 @interface WarCarftIII_Tests_10 : XCTestCase
 
 @end
 
 @implementation WarCarftIII_Tests_10
+{
+    Unit *unit;
+    Unit *enemy;
+}
 
 - (void)setUp
 {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    unit = [[Unit alloc]initWithHP:100 AP:3];
+    enemy = [[Unit alloc]initWithHP:40 AP:5];
 }
 
 - (void)tearDown
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    unit = nil;
+    enemy = nil;
     [super tearDown];
 }
 
-- (void)testExample
+-(void)testDamageShouldReduceTheUnitHealthPointsByTheAttackPower
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    [unit damage:12];
+    int result = unit.health;
+    int expected = 88;
+    XCTAssertEqual(expected,result);
+}
+
+-(void)testAttackShouldDealDamageToEnemy
+{
+    id enemy = [OCMockObject mockForClass:[Unit class]];
+    [[enemy expect] damage:3];
+    [unit attack:enemy];
 }
 
 @end

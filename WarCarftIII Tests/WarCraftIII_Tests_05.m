@@ -1,5 +1,5 @@
 //
-//  WarCraftIII_Tests_01.m
+//  WarCraftIII_Tests_05.m
 //  WarCarftIII
 //
 //  Created by Aaron Dufall on 5/05/2014.
@@ -7,28 +7,43 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Unit.h"
 
-@interface WarCraftIII_Tests_01 : XCTestCase
+
+// A unit is a common term in strategy games like Warcraft 3 and it stands for a soldier or person that performs a task of some kind. A footman is just one of many "units" that a barracks can train.
+
+//So let's use inheritence. First we'll introduce a new class (create a new file called unit.rb for it).
+// The Unit is an abstract idea and thus it needs to be told what the HP and AP for the unit will be
+
+// Since all units have health, the HP related stuff can be migrated/moved into the Unit class instead.
+
+
+@interface WarCraftIII_Tests_05 : XCTestCase
 
 @end
 
-@implementation WarCraftIII_Tests_01
+@implementation WarCraftIII_Tests_05
 
-- (void)setUp
+-(void)testUnitRequiredHPandAPInsteadOfDefaulting
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    BOOL result = [[Unit alloc]respondsToSelector:@selector(initWithHP:AP:)];
+    BOOL expected = YES;
+    XCTAssertEqual(expected,result);
 }
 
-- (void)tearDown
+-(void)testHealthPointsCanBeSet
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+    Unit *unit = [[Unit alloc]initWithHP:30 AP:5];
+    int result = unit.healthPoints;
+    int expected = 30;
+    XCTAssertEqual(expected,result);
 }
 
-- (void)testExample
+-(void)testHealthPointsCanNotBeSet
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    BOOL result = [[Unit alloc]respondsToSelector:@selector(setHealth:)];
+    BOOL expected = YES;
+    XCTAssertEqual(expected,result);
 }
 
 @end

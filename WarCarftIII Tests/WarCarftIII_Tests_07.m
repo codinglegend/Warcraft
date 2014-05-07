@@ -7,28 +7,44 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Footman.h"
+#import "OCMock.h"
 
-@interface WarCarftIII_Test_07 : XCTestCase
+
+// A Footman should be able to attack other units as well as receive damage
+// Later on, other units such as the peasant will be incapable of attacking
+
+@interface WarCarftIII_Tests_07 : XCTestCase
 
 @end
 
-@implementation WarCarftIII_Test_07
-
-- (void)setUp
+@implementation WarCarftIII_Tests_07
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    Footman *_footman;
 }
 
-- (void)tearDown
+
+-(Footman *)footman
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+    if (!_footman){
+        [Footman new];
+    }
+    return _footman;
 }
 
-- (void)testExample
+-(void)testAttackShouldDoDeal10APDamageToTheEnemyUnit
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    id enemy = [OCMockObject mockForClass:[Footman class]];
+    [[enemy expect] damage:10];
+    [self.footman attack:enemy];
 }
 
+
+-(void)testDamageShouldReduceTheUnitHealthPointsBy
+{
+    [self.footman damage:4];
+    int result = [self.footman healthPoints];
+    int expected = 56;
+    XCTAssertEqual(expected,result);
+}
 @end

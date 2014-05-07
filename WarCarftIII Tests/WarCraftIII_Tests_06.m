@@ -7,28 +7,32 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Footman.h"
+#import "Unit.h"
 
-@interface WarCraft_Tests_06 : XCTestCase
+// Since a Footman is a type of Unit, it makes sense to now make Footman inherit from Unit
+// Furthermore,
+
+// This test doesn't look for it, but there are other things that you could do at this point. Think about what else you could refactor in the Footman class, now that it is inheriting functionality (code) from the Unit class.
+
+
+@interface WarCraftIII_Tests_06 : XCTestCase
 
 @end
 
-@implementation WarCraft_Tests_06
+@implementation WarCraftIII_Tests_06
 
-- (void)setUp
+-(Footman *)footman
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    return [Footman new];
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
 
-- (void)testExample
+-(void)testFootmanShouldBeAUnit
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    BOOL result = [self.footman isKindOfClass:[Unit class]];
+    BOOL expected = YES;
+    XCTAssertEqual(expected,result);
 }
 
 @end

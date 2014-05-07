@@ -6,7 +6,12 @@
 //  Copyright (c) 2014 Lighthouse Labs. All rights reserved.
 //
 
+
 #import <XCTest/XCTest.h>
+#import "Barracks.h"
+
+// Resources allow you to create units. In our case (for simplicity), these resources will be stored directly within the barracks
+
 
 @interface WarCraftIII_Tests_02 : XCTestCase
 
@@ -14,21 +19,23 @@
 
 @implementation WarCraftIII_Tests_02
 
-- (void)setUp
+-(Barracks *)barracks
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    return [Barracks new];
 }
 
-- (void)tearDown
+-(void)testStartsOffWith1000GoldResources
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+    int result = self.barracks.gold;
+    int expected = 1000;
+    XCTAssertEqual(expected,result);
 }
 
-- (void)testExample
+-(void)testStartsOffWith80FoodResources
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    int result = self.barracks.food;
+    int expected = 80;
+    XCTAssertEqual(expected,result);
 }
 
 @end
