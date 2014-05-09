@@ -4,7 +4,7 @@ Premise
 
 Warcraft III is a famous strategy video game by Blizzard. In this game, players can build barracks and then use them to train footmen which they can later use to fight other players' units.
 
-We're going to use OOP to model out Warcraft III's unit training for the Human Race. You'll be reading XCTest examples to determine what functionality needs to be built and then build it to make all the specs pass or else the Human race will die!
+We're going to use OOP to model out Warcraft III's unit training for the Human Race. You'll be reading XCTest examples to determine what functionality needs to be built and then build it to make all the tests pass or else the Human race will die!
 
 NOTE: The logic will not be identical to that of Warcraft III... deal with it!
 
@@ -21,12 +21,12 @@ Steps
 3) Start implementing your code to satisfy a particular test ("example")
 4) Run the test suite again (control+option+command+g).
 5) Repeat steps 1 through 4 until all tests pass for that suite.
-6) Once all the tests are passing for that suite, run the next suite (file).
+6) Once all the tests are passing for that suite, run the next suite (file). (Note: the test suites may not be listed in order; please choose the next numbered test file)
 
 Notes / Tips:
 
 In this assignment, you will only be reading/running XCTest files, not creating or modifying them.
-As such, do not modify the code in the test_ files
+As such, do not modify the code in the test files
 The tests will require you to create new classes as you progress. This means you should create a new file for that class (good practice, and what this project is already doing and expecting)
 Normal projects do not have their tests structured this way. We've done it here to facilitate incremental building and learning
 
