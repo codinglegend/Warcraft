@@ -32,13 +32,13 @@
 {
     int result = self.footman.healthPoints;
     int expected = 60;
-    XCTAssertEqual((int)expected, (int)result);
+    XCTAssertEqual((int)expected, (int)result, @"footman should have and know its HP (Health Points)");
 }
 
 - (void)testHasAndKnowItsAttackPower
 {
     int result = self.footman.attackPower;
     int expected = 10;
-    XCTAssertEqual((int)expected, (int)result);
+    XCTAssertEqual((int)expected, (int)result, @"footman should have and know its AP (Attack Power)");
 }
 @end

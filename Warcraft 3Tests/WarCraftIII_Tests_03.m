@@ -37,7 +37,7 @@
     [self.barracks trainFootman];
     int result = self.barracks.gold;
     int expected = 865; // Starts with 1000
-    XCTAssertEqual((int)expected, (int)result);
+    XCTAssertEqual((int)expected, (int)result, @"training footman should cost 135 gold");
 }
 
 -(void)testTrainFootmanCosts2Food
@@ -45,7 +45,7 @@
     [self.barracks trainFootman];
     int result = self.barracks.food;
     int expected = 78; // Starts with 80
-    XCTAssertEqual((int)expected, (int)result);
+    XCTAssertEqual((int)expected, (int)result, @"training footman should cost 2 food");
 }
 
 -(void)testTrainFootmanProducesAFootmanUnit

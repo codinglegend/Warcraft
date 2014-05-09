@@ -32,14 +32,14 @@
 {
     int result = self.barracks.gold;
     int expected = 1000;
-    XCTAssertEqual((int)expected, (int)result);
+    XCTAssertEqual((int)expected, (int)result, @"barracks should start off with 1000 gold resources");
 }
 
 -(void)testStartsOffWith80FoodResources
 {
     int result = self.barracks.food;
     int expected = 80;
-    XCTAssertEqual((int)expected, (int)result);
+    XCTAssertEqual((int)expected, (int)result, @"barracks should start off with 80 food resources");
 }
 
 @end
