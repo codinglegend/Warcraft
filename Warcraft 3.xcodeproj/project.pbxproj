@@ -337,17 +337,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8311C72A191CCC7800AF33F3 /* WarCarftIII_Tests_10.m in Sources */,
-				8311C728191CCC7800AF33F3 /* WarCarftIII_Tests_07.m in Sources */,
-				8311C730191CCC7800AF33F3 /* WarCraftIII_Tests_09.m in Sources */,
-				8311C72F191CCC7800AF33F3 /* WarCraftIII_Tests_06.m in Sources */,
-				8311C72D191CCC7800AF33F3 /* WarCraftIII_Tests_04.m in Sources */,
-				8311C72C191CCC7800AF33F3 /* WarCraftIII_Tests_03.m in Sources */,
-				8311C748191D63C600AF33F3 /* WCMockBarracks.m in Sources */,
-				8311C72E191CCC7800AF33F3 /* WarCraftIII_Tests_05.m in Sources */,
-				8311C72B191CCC7800AF33F3 /* WarCraftIII_Tests_02.m in Sources */,
 				8311C727191CCC7800AF33F3 /* WarCarftIII_Tests_01.m in Sources */,
+				8311C72B191CCC7800AF33F3 /* WarCraftIII_Tests_02.m in Sources */,
+				8311C72C191CCC7800AF33F3 /* WarCraftIII_Tests_03.m in Sources */,
+				8311C72D191CCC7800AF33F3 /* WarCraftIII_Tests_04.m in Sources */,
+				8311C72E191CCC7800AF33F3 /* WarCraftIII_Tests_05.m in Sources */,
+				8311C72F191CCC7800AF33F3 /* WarCraftIII_Tests_06.m in Sources */,
+				8311C728191CCC7800AF33F3 /* WarCarftIII_Tests_07.m in Sources */,
 				8311C729191CCC7800AF33F3 /* WarCarftIII_Tests_08.m in Sources */,
+				8311C730191CCC7800AF33F3 /* WarCraftIII_Tests_09.m in Sources */,
+				8311C72A191CCC7800AF33F3 /* WarCarftIII_Tests_10.m in Sources */,
+				8311C748191D63C600AF33F3 /* WCMockBarracks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
