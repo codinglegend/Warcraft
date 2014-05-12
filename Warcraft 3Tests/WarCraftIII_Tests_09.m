@@ -49,11 +49,10 @@
     XCTAssertEqual((int)expected, result);
 }
 
--(void)testTrainPeasantProducesAUnit
+-(void)testTrainPeasantProducesAPeasant
 {
     Peasent *peasent = [_barracks trainPeasant];
-    id result = [peasent class];
-    XCTAssertTrue([result isKindOfClass:[Unit class]], @"training a peasant should produce a type of unit");
+    XCTAssertTrue([peasent isKindOfClass:[Peasent class]], @"training a peasant should produce a peasant");
 }
 
 -(void)testCanTrainPeasantBeTrueIfThereIsEnoughResources

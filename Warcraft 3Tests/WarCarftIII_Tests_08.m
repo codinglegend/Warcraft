@@ -16,7 +16,7 @@
 
 @interface Peasent()
 - (int)healthPoints;
-- (int)attckPower;
+- (int)attackPower;
 @end
 
 @interface WarCarftIII_Tests_08 : XCTestCase
@@ -32,22 +32,21 @@
 
 -(void)testPeasentShouldBeAUnit
 {
-    id result = [self.peasent class];
-    XCTAssertEqualObjects(result, [Unit class], @"Peasant should be a type of unit");
+    XCTAssertTrue([self.peasent isKindOfClass:[Unit class]], @"Peasant should be a kind of unit");
 }
 
 -(void)testHasAndKnowsItsHPWhichIsLowerThanThatOfAFootman
 {
     int result = self.peasent.healthPoints;
     int expected = 35;
-    XCTAssertEqual((int)expected, (int)result);
+    XCTAssertEqual((int)expected, (int)result, @"Peasant HP should default to 35");
 }
 
 -(void)testCantDamageOtherUnitsNoAttackPower
 {
-    int result = self.peasent.attckPower;
+    int result = self.peasent.attackPower;
     int expected = 0;
-    XCTAssertEqual((int)expected, (int)result);
+    XCTAssertEqual((int)expected, (int)result, @"Peasant AP should be 0");
 
 }
 @end

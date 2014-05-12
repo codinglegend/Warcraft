@@ -25,11 +25,18 @@
     WCMockBarracks *_barracks;
 }
 
+- (void)setUp {
+	[super setUp];
+	_barracks = [WCMockBarracks new];
+}
+
+- (void)tearDown {
+	[super tearDown];
+	_barracks = nil;
+}
+
 -(WCMockBarracks *)barracks
 {
-    if (!_barracks) {
-        _barracks = [WCMockBarracks new];
-    }
     return _barracks;
 }
 

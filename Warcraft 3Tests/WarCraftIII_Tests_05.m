@@ -46,7 +46,7 @@
 
 -(void)testhealthPointsCanNotBeSet
 {
-    BOOL result = [[Unit alloc] respondsToSelector:@selector(sethealthPoints:)];
+    BOOL result = [[Unit alloc] respondsToSelector:@selector(setHealthPoints:)];
     XCTAssertTrue(result, @"healthPoints points should be able to be set");
 }
 

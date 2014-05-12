@@ -24,33 +24,39 @@
 
 @end
 
-@implementation WarCraftIII_Tests_03
+@implementation WarCraftIII_Tests_03 {
+	Barracks *_barracks;
+}
 
+- (void)setUp {
+	[super setUp];
+	_barracks = [Barracks new];
+}
 
--(Barracks *)barracks
-{
-    return [Barracks new];
+- (void)tearDown {
+	[super tearDown];
+	_barracks = nil;
 }
 
 -(void)testTrainFootmanCosts135Gold
 {
-    [self.barracks trainFootman];
-    int result = self.barracks.gold;
+    [_barracks trainFootman];
+    int result = _barracks.gold;
     int expected = 865; // Starts with 1000
     XCTAssertEqual((int)expected, (int)result, @"training footman should cost 135 gold");
 }
 
 -(void)testTrainFootmanCosts2Food
 {
-    [self.barracks trainFootman];
-    int result = self.barracks.food;
+    [_barracks trainFootman];
+    int result = _barracks.food;
     int expected = 78; // Starts with 80
     XCTAssertEqual((int)expected, (int)result, @"training footman should cost 2 food");
 }
 
 -(void)testTrainFootmanProducesAFootmanUnit
 {
-    id result = [[self.barracks trainFootman] class];
+    id result = [[_barracks trainFootman] class];
 	id expected = [Footman class];
     XCTAssertEqualObjects(expected, result, @"barracks should produce a footman when training a footman");
 }

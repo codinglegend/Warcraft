@@ -28,27 +28,28 @@
     Footman *_footman;
 }
 
+- (void)setUp {
+	[super setUp];
+	_footman = [Footman new];
+}
 
--(Footman *)footman
-{
-    if (!_footman){
-        [Footman new];
-    }
-    return _footman;
+- (void)tearDown {
+	[super tearDown];
+	_footman = nil;
 }
 
 -(void)testAttackShouldDoDeal10APDamageToTheEnemyUnit
 {
     id enemy = [OCMockObject mockForClass:[Footman class]];
     [[enemy expect] damage:10];
-    [self.footman attack:enemy];
+    [_footman attack:enemy];
 }
 
 
 -(void)testDamageShouldReduceTheUnithealthPointsBy
 {
-    [self.footman damage:4];
-    int result = [self.footman healthPoints];
+    [_footman damage:4];
+    int result = [_footman healthPoints];
     int expected = 56;
     XCTAssertEqual(expected,result);
 }
