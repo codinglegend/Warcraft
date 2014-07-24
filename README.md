@@ -1,5 +1,5 @@
 #Warcraft III Barracks Simulator
-===============
+
 #Premise
 
 Warcraft III is a famous strategy video game by Blizzard. In this game, players can build barracks and then use them to train footmen which they can later use to fight other players' units.
@@ -16,12 +16,12 @@ Show the navigator panel (command+0) and navigate to the "Test Navigator" tab (c
 
 #Steps
 
-1) Read the CODE for the test file that you ran
-2) Understand what tests it contains and what each test in that file is expecting
-3) Start implementing your code to satisfy a particular test ("example")
-4) Run the test suite again (control+option+command+g).
-5) Repeat steps 1 through 4 until all tests pass for that suite.
-6) Once all the tests are passing for that suite, run the next suite (file). (Note: the test suites may not be listed in order; please choose the next numbered test file)
+- Read the CODE for the test file that you ran
+- Understand what tests it contains and what each test in that file is expecting
+- Start implementing your code to satisfy a particular test ("example")
+- Run the test suite again (control+option+command+g).
+- Repeat steps 1 through 4 until all tests pass for that suite.
+- Once all the tests are passing for that suite, run the next suite (file). (Note: the test suites may not be listed in order; please choose the next numbered test file)
 
 #Notes / Tips:
 
