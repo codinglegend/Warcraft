@@ -1,6 +1,6 @@
 #Warcraft III Barracks Simulator
 
-#Premise
+##Premise
 
 Warcraft III is a famous strategy video game by Blizzard. In this game, players can build barracks and then use them to train footmen which they can later use to fight other players' units.
 
@@ -8,13 +8,13 @@ We're going to use OOP to model out Warcraft III's unit training for the Human R
 
 NOTE: The logic will not be identical to that of Warcraft III... deal with it!
 
-#Instructions
+##Instructions
 
 There are multiple test files provided. Each file progresses our development of the game further. Start by opening the project.
 
 Show the navigator panel (command+0) and navigate to the "Test Navigator" tab (command+5). Here, you'll see all the tests grouped by file. After you run each test, you will see the status for each (red x for fail, green checkmark for success). Your goal is the make all the tests pass for that file, before proceeding onto the next test file. Start by mousing over "WarcraftIII_Tests_01" and clicking on the small arrow button (looks like play).
 
-#Steps
+##Steps
 
 1. Read the CODE for the test file that you ran
 2. Understand what tests it contains and what each test in that file is expecting
@@ -23,7 +23,7 @@ Show the navigator panel (command+0) and navigate to the "Test Navigator" tab (c
 5. Repeat steps 1 through 4 until all tests pass for that suite.
 6. Once all the tests are passing for that suite, run the next suite (file). (Note: the test suites may not be listed in order; please choose the next numbered test file)
 
-#Notes / Tips:
+##Notes / Tips:
 
 In this assignment, you will only be reading/running XCTest files, not creating or modifying them.
 As such, do not modify the code in the test files
@@ -33,7 +33,7 @@ Normal projects do not have their tests structured this way. We've done it here 
 It is recommended that you consume these resources and understand their underlying concepts before starting the project:
 https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/OOP_ObjC/Articles/ooObjectModel.html#//apple_ref/doc/uid/TP40005149-CH5-SW4
 
-#Topics covered:
+##Topics covered:
 
 - How to create a class
 - How to create instance variables
