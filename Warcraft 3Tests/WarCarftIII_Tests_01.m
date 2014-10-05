@@ -25,7 +25,7 @@
 
 -(Footman *)footman
 {
-    return [Footman new];
+    return [[Footman alloc] init];
 }
 
 - (void)testHasAndKnowItshealthPoints

@@ -10,4 +10,6 @@
 
 @interface Footman : NSObject
 
+@property (assign) int healthPoints;
+
 @end

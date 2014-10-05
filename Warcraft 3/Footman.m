@@ -10,4 +10,9 @@
 
 @implementation Footman
 
+-(instancetype)init{
+    _healthPoints = 60;
+    return self;
+}
+
 @end
