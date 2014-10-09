@@ -12,7 +12,7 @@
 	<dict>
 		<key>0254DDCA-F704-4FEE-992E-21093496C14E</key>
 		<string>https://github.com/lighthouse-labs/iOS-WarcraftIII</string>
-		<key>8EC30AB8990F0520114FE4E365C4441BCA4655F3</key>
+		<key>E2584D914A3FE042994062B2DC316BBF7F3C9421</key>
 		<string>https://github.com/lighthouse-labs/iOS-Instructor-Week1.git</string>
 		<key>E7E4E8D92D35D4F6D1803D5C24408B632FFFDB2C</key>
 		<string>https://github.com/lighthouse-labs/iOS-Student-WarcraftIII.git</string>
@@ -23,7 +23,7 @@
 	<dict>
 		<key>0254DDCA-F704-4FEE-992E-21093496C14E</key>
 		<string>../../../iOS-WarcraftIII</string>
-		<key>8EC30AB8990F0520114FE4E365C4441BCA4655F3</key>
+		<key>E2584D914A3FE042994062B2DC316BBF7F3C9421</key>
 		<string>../../..</string>
 		<key>E7E4E8D92D35D4F6D1803D5C24408B632FFFDB2C</key>
 		<string>../..</string>
@@ -40,7 +40,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8EC30AB8990F0520114FE4E365C4441BCA4655F3</string>
+			<string>E2584D914A3FE042994062B2DC316BBF7F3C9421</string>
 			<key>IDESourceControlWCCName</key>
 			<string></string>
 		</dict>

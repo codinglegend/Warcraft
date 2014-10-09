@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "Barracks.h"
-#import "Peasent.h"
+#import "Peasant.h"
 #import "Unit.h"
 #import "WCMockBarracks.h"
 
@@ -51,8 +51,8 @@
 
 -(void)testTrainPeasantProducesAPeasant
 {
-    Peasent *peasent = [_barracks trainPeasant];
-    XCTAssertTrue([peasent isKindOfClass:[Peasent class]], @"training a peasant should produce a peasant");
+    Peasant *peasant = [_barracks trainPeasant];
+    XCTAssertTrue([peasant isKindOfClass:[Peasant class]], @"training a peasant should produce a peasant");
 }
 
 -(void)testCanTrainPeasantBeTrueIfThereIsEnoughResources
@@ -65,14 +65,14 @@
 {
 	_barracks.food = 4;
     BOOL result = [_barracks canTrainPeasant];
-    XCTAssertFalse(result, @"barracks can't train a peasent if there is less than 5 food");
+    XCTAssertFalse(result, @"barracks can't train a peasant if there is less than 5 food");
 }
 
 -(void)testCanTrainPeasantBeFalseIfThereIsntEnoughGold
 {
 	_barracks.gold = 89;
     BOOL result = [_barracks canTrainPeasant];
-    XCTAssertFalse(result, @"barracks can't train a peasent if there is less than 90 gold");
+    XCTAssertFalse(result, @"barracks can't train a peasant if there is less than 90 gold");
 }
 
 -(void)testTrainPeasantDoesNotTrainPeasantIfThereIsNotEnoughResources
@@ -80,14 +80,14 @@
 	_barracks.gold = 89;
 	_barracks.food = 4;
     id result = [_barracks trainPeasant];
-    XCTAssertNil(result, @"barracks shouldn't train a peasent if there isn't enough resources");
+    XCTAssertNil(result, @"barracks shouldn't train a peasant if there isn't enough resources");
 }
 
 -(void)testTrainPeasantWillTrainIfThereIsEnoughResources
 {
-    Peasent *peasent = [_barracks trainPeasant];
-    id result = [peasent class];
-    XCTAssertEqualObjects(result, [Peasent class], @"barracks should be able to train a peasent if there is enough resources");
+    Peasant *peasant = [_barracks trainPeasant];
+    id result = [peasant class];
+    XCTAssertEqualObjects(result, [Peasant class], @"barracks should be able to train a peasant if there is enough resources");
 }
 
 
