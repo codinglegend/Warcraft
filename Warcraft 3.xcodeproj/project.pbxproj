@@ -32,7 +32,7 @@
 		8311C730191CCC7800AF33F3 /* WarCraftIII_Tests_09.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C726191CCC7800AF33F3 /* WarCraftIII_Tests_09.m */; };
 		8311C73B191CCCCD00AF33F3 /* Barracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C732191CCCCD00AF33F3 /* Barracks.m */; };
 		8311C73C191CCCCD00AF33F3 /* Footman.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C734191CCCCD00AF33F3 /* Footman.m */; };
-		8311C73D191CCCCD00AF33F3 /* Peasent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C736191CCCCD00AF33F3 /* Peasent.m */; };
+		8311C73D191CCCCD00AF33F3 /* Peasant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C736191CCCCD00AF33F3 /* Peasant.m */; };
 		8311C73E191CCCCD00AF33F3 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C738191CCCCD00AF33F3 /* Unit.m */; };
 		8311C73F191CCCCD00AF33F3 /* WarCarftIII.1 in Resources */ = {isa = PBXBuildFile; fileRef = 8311C73A191CCCCD00AF33F3 /* WarCarftIII.1 */; };
 		8311C748191D63C600AF33F3 /* WCMockBarracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C747191D63C600AF33F3 /* WCMockBarracks.m */; };
@@ -79,8 +79,8 @@
 		8311C732191CCCCD00AF33F3 /* Barracks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barracks.m; sourceTree = "<group>"; };
 		8311C733191CCCCD00AF33F3 /* Footman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Footman.h; sourceTree = "<group>"; };
 		8311C734191CCCCD00AF33F3 /* Footman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Footman.m; sourceTree = "<group>"; };
-		8311C735191CCCCD00AF33F3 /* Peasent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peasent.h; sourceTree = "<group>"; };
-		8311C736191CCCCD00AF33F3 /* Peasent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peasent.m; sourceTree = "<group>"; };
+		8311C735191CCCCD00AF33F3 /* Peasant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peasant.h; sourceTree = "<group>"; };
+		8311C736191CCCCD00AF33F3 /* Peasant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peasant.m; sourceTree = "<group>"; };
 		8311C737191CCCCD00AF33F3 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
 		8311C738191CCCCD00AF33F3 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
 		8311C739191CCCCD00AF33F3 /* WarCarftIII-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WarCarftIII-Prefix.pch"; sourceTree = "<group>"; };
@@ -159,8 +159,8 @@
 				8311C732191CCCCD00AF33F3 /* Barracks.m */,
 				8311C733191CCCCD00AF33F3 /* Footman.h */,
 				8311C734191CCCCD00AF33F3 /* Footman.m */,
-				8311C735191CCCCD00AF33F3 /* Peasent.h */,
-				8311C736191CCCCD00AF33F3 /* Peasent.m */,
+				8311C735191CCCCD00AF33F3 /* Peasant.h */,
+				8311C736191CCCCD00AF33F3 /* Peasant.m */,
 				8311C737191CCCCD00AF33F3 /* Unit.h */,
 				8311C738191CCCCD00AF33F3 /* Unit.m */,
 				8311C739191CCCCD00AF33F3 /* WarCarftIII-Prefix.pch */,
@@ -326,7 +326,7 @@
 			files = (
 				8311C73C191CCCCD00AF33F3 /* Footman.m in Sources */,
 				8311C6F5191CCB2300AF33F3 /* WCAppDelegate.m in Sources */,
-				8311C73D191CCCCD00AF33F3 /* Peasent.m in Sources */,
+				8311C73D191CCCCD00AF33F3 /* Peasant.m in Sources */,
 				8311C73E191CCCCD00AF33F3 /* Unit.m in Sources */,
 				8311C6F1191CCB2300AF33F3 /* main.m in Sources */,
 				8311C73B191CCCCD00AF33F3 /* Barracks.m in Sources */,

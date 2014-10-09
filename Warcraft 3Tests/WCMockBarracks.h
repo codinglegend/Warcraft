@@ -7,14 +7,14 @@
 
 #import "Barracks.h"
 
-@class Footman, Peasent;
+@class Footman, Peasant;
 
 @interface WCMockBarracks : Barracks
 
 - (BOOL)canTrainFootman;
 - (Footman *)trainFootman;
 - (BOOL)canTrainPeasant;
-- (Peasent *)trainPeasant;
+- (Peasant *)trainPeasant;
 @property (nonatomic) int food;
 @property (nonatomic) int gold;
 
