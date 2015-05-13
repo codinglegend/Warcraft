@@ -19,9 +19,10 @@
 
 @interface Unit()
 
+
 - (instancetype)initWithHP:(int)hp AP:(int)ap;
 - (void)sethealthPoints:(int)hp;
-- (int)healthPoints;
+
 @end
 
 @implementation Unit // don't forget to write the class name
@@ -29,7 +30,7 @@
 - (instancetype)initWithHP:(int)hp AP:(int)ap{
     self = [super init]; //use superinit whenever you want to initialize a "initwith" etc
     if (self){
-
+        _healthPoints = 30; //initiliazing, or dealloc, use _underscore
     }
     return self;
 }

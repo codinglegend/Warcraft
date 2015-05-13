@@ -10,12 +10,11 @@
 #import "Unit.h"
 #import "OCMock.h"
 
-@interface Unit()
-@property (nonatomic)
+@interface Unit() // these brackets mean it's not the main one ( Unit: NSObject is)
 
 - (instancetype)initWithHP:(int)hp AP:(int)ap;
 - (void)sethealthPoints:(int)hp;
-- (int)healthPoints;
+
 - (void)attack:(Unit *)enemy;
 - (void)damage:(int)damage;
 @end

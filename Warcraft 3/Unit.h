@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Unit : NSObject
+@property (nonatomic) int healthPoints;
 
 @end
