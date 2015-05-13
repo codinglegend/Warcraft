@@ -14,7 +14,7 @@
 {
     self = [super init];
     if (self) {
-        _healthPoints = 60;
+        self.healthPoints = 60;
         _attackPower = 10;
     }
     return self;

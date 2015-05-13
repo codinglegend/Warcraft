@@ -36,6 +36,7 @@
 		8311C73E191CCCCD00AF33F3 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C738191CCCCD00AF33F3 /* Unit.m */; };
 		8311C73F191CCCCD00AF33F3 /* WarCarftIII.1 in Resources */ = {isa = PBXBuildFile; fileRef = 8311C73A191CCCCD00AF33F3 /* WarCarftIII.1 */; };
 		8311C748191D63C600AF33F3 /* WCMockBarracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C747191D63C600AF33F3 /* WCMockBarracks.m */; };
+		B544F30B1B03CF0E0078797C /* Footman.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C734191CCCCD00AF33F3 /* Footman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -341,6 +342,7 @@
 				8311C72B191CCC7800AF33F3 /* WarCraftIII_Tests_02.m in Sources */,
 				8311C72C191CCC7800AF33F3 /* WarCraftIII_Tests_03.m in Sources */,
 				8311C72D191CCC7800AF33F3 /* WarCraftIII_Tests_04.m in Sources */,
+				B544F30B1B03CF0E0078797C /* Footman.m in Sources */,
 				8311C72E191CCC7800AF33F3 /* WarCraftIII_Tests_05.m in Sources */,
 				8311C72F191CCC7800AF33F3 /* WarCraftIII_Tests_06.m in Sources */,
 				8311C728191CCC7800AF33F3 /* WarCarftIII_Tests_07.m in Sources */,
