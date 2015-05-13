@@ -15,7 +15,9 @@
 - (Footman *)trainFootman;
 - (BOOL)canTrainPeasant;
 - (Peasant *)trainPeasant;
-@property (nonatomic) int food;
-@property (nonatomic) int gold;
+
+
+
+
 
 @end

@@ -18,11 +18,23 @@
 // Since all units have healthPoints, the HP related stuff can be migrated/moved into the Unit class instead.
 
 @interface Unit()
+
 - (instancetype)initWithHP:(int)hp AP:(int)ap;
 - (void)sethealthPoints:(int)hp;
 - (int)healthPoints;
 @end
 
+@implementation Unit // don't forget to write the class name
+
+- (instancetype)initWithHP:(int)hp AP:(int)ap{
+    self = [super init]; //use superinit whenever you want to initialize a "initwith" etc
+    if (self){
+
+    }
+    return self;
+}
+
+@end
 
 @interface WarCraftIII_Tests_05 : XCTestCase
 

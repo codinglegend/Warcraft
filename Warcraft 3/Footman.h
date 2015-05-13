@@ -11,5 +11,6 @@
 @interface Footman : NSObject
 
 @property (assign) int healthPoints;
+@property (assign) int attackPower;
 
 @end

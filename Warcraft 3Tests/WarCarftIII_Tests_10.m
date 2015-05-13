@@ -11,6 +11,8 @@
 #import "OCMock.h"
 
 @interface Unit()
+@property (nonatomic)
+
 - (instancetype)initWithHP:(int)hp AP:(int)ap;
 - (void)sethealthPoints:(int)hp;
 - (int)healthPoints;

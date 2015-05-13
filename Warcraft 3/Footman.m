@@ -10,9 +10,16 @@
 
 @implementation Footman
 
--(instancetype)init{
-    _healthPoints = 60;
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _healthPoints = 60;
+        _attackPower = 10;
+    }
     return self;
 }
+
+// initiating a class. which you only do once...so all the statements within it
 
 @end

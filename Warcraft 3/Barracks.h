@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Footman.h"
 
 @interface Barracks : NSObject
+@property (nonatomic) int gold;
+@property (nonatomic) int food;
+
+-(Footman*)trainFootman;
+
 
 @end
