@@ -37,6 +37,7 @@
 		8311C73F191CCCCD00AF33F3 /* WarCarftIII.1 in Resources */ = {isa = PBXBuildFile; fileRef = 8311C73A191CCCCD00AF33F3 /* WarCarftIII.1 */; };
 		8311C748191D63C600AF33F3 /* WCMockBarracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C747191D63C600AF33F3 /* WCMockBarracks.m */; };
 		B544F30B1B03CF0E0078797C /* Footman.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C734191CCCCD00AF33F3 /* Footman.m */; };
+		B5BF7D671B08146100B347BF /* Barracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C732191CCCCD00AF33F3 /* Barracks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -349,6 +350,7 @@
 				8311C729191CCC7800AF33F3 /* WarCarftIII_Tests_08.m in Sources */,
 				8311C730191CCC7800AF33F3 /* WarCraftIII_Tests_09.m in Sources */,
 				8311C72A191CCC7800AF33F3 /* WarCarftIII_Tests_10.m in Sources */,
+				B5BF7D671B08146100B347BF /* Barracks.m in Sources */,
 				8311C748191D63C600AF33F3 /* WCMockBarracks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
