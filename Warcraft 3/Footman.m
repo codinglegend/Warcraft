@@ -16,11 +16,17 @@
     if (self) {
         self.healthPoints = 60;
         //[self setHealthPoints:60];
-        _attackPower = 10;
+        self.attackPower = 10;
     }
     return self;
 }
 
 // initiating a class. which you only do once...so all the statements within it
+
+-(void)attack:(Unit*)enemy{
+    [enemy damage:10];
+}
+
+
 
 @end

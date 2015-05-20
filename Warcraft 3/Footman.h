@@ -11,8 +11,6 @@
 
 @interface Footman : Unit
 
-@property (assign) int attackPower;
-
-
+-(void)attack:(Unit*)enemy;
 
 @end

@@ -8,6 +8,7 @@
 
 #import "Barracks.h"
 #import "Footman.h"
+#import "Peasant.h"
 
 
 @implementation Barracks
@@ -23,18 +24,6 @@
 }
 
 
-- (Footman*)trainFootman{
-    
-    Footman *footman = nil; //making nil the default
-    
-    if ((self.gold >= 135) && (self.food >= 2)){
-        self.gold = self.gold - 135; // could use -=
-        self.food = self.food - 2;
-        footman = [[Footman alloc] init];
-    }
-    return footman; // method needs this return? 
-}
-
 // HOW I HAD IT DONE INITIALLY
 // - (Footman*)trainFootman{
 //    if ((self.gold < 135) && (self.food < 2)){
@@ -44,10 +33,21 @@
 //    self.food = self.food - 2;
 //    
 //    return [[Footman alloc] init];
-//    }
-//}
+// }
 
 
+// TOM'S WAY
+- (Footman*)trainFootman{
+    
+    Footman *footman = nil; //making nil the default
+    
+    if ((self.gold >= 135) && (self.food >= 2)){
+        self.gold = self.gold - 135; // could use -=
+        self.food = self.food - 2;
+        footman = [[Footman alloc] init];
+    }
+    return footman; // method needs this return?
+}
 
 
 // COULD HAVE INCLUDED THE canTrainFootman FUNCTION SINCE IT ALREADY MADE THE CHECK
@@ -70,6 +70,25 @@
     }
     return YES; //return jumps out of function
 }
+
+-(Peasant *)trainPeasant{
+    if ((self.gold>90)&&(self.food>5)){
+    self.gold = self.gold - 90;
+    self.food = self.food - 5;
+    return [[Peasant alloc] init];
+    }else{
+    return nil;
+    }
+
+}
+
+-(BOOL)canTrainPeasant{
+    if ((self.food < 5)||(self.gold < 90)){
+        return NO;
+    }return [[Peasant alloc] init];
+}
+
+
 
 @end
 

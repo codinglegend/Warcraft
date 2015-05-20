@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 @class Footman;
+@class Peasant;
 
 @interface Barracks : NSObject
 @property (nonatomic) int gold;
@@ -15,6 +16,7 @@
 
 -(Footman*)trainFootman;
 -(BOOL)canTrainFootman;
-
+-(Peasant*)trainPeasant;
+-(BOOL)canTrainPeasant;
 
 @end
