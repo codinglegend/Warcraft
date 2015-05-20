@@ -14,7 +14,6 @@
 // Later on, other units such as the peasant will be incapable of attacking
 
 @interface Footman()
-- (void)attack:(Footman *)enemy;
 - (void)damage:(int)damage;
 - (int)healthPoints;
 @end
